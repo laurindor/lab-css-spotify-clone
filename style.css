@@ -15,8 +15,8 @@ body{
 
 h1,
 h2,
-h3, {
-  font-family: Roboto Condensed;
+h3,
+h4 {  font-family: Roboto Condensed;
   font-weight: 700;
 }
 
@@ -72,7 +72,7 @@ h3, {
 
   .header h2{
     color: white;
-    font-size: 3em;
+    font-size: 30px;
     display:flex;
     justify-content: center;
   }
@@ -87,21 +87,50 @@ h3, {
   }
    
   #Structure>div {
+    margin:10%; 
     display: flex;
     justify-content: space-between; 
     flex-direction:row; 
     flex-wrap: wrap;
   }
 
+  #Structure>div>p {
+    
+
+  }
+
+  h4 {
+    color:rgb(20, 209, 121);
+    font-size:20px;
+    text-align: center;
+  }
 
   .spotisection img {
-    width: 125px;
+    width: 200px;
   }
 
   .music img {
-  width: 125px;
+  width: 200px;
   }
 
   .stream img {
-  width: 125px;
+  width: 200px;
+  }
+
+  #green {
+
+    background-color: rgb(20, 209, 121);
+    margin:0 2% 0 2%;
+
+  }
+
+  #green>h1 {
+  color: white;
+  text-decoration:underline; 
+  text-decoration-color:white; 
+  font-size: 2em;
+  padding: 10px;
+  text-align:left;
+
+
   }
